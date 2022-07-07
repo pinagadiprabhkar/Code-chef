@@ -1,0 +1,4 @@
+for t in  range(int(input())):
+    s1,s2,e1,e2=map(int,input().split())
+    if s1!=e1 and s2!=e2:print(1)
+    if s1 == e1 or s2==e2:print(2)
