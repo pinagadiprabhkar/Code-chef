@@ -1,0 +1,6 @@
+for t in range(int(input())):
+    X,Y=list(map(int,input().split()))
+    if X<Y:
+        print('B')
+    elif X>Y:
+        print('A')
