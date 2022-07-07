@@ -1,0 +1,7 @@
+for t in range(int(input())):
+    X,Y,Z=list(map(int,input().split()))
+    if X*Y<=Z:
+        print('YES')
+    else:
+        if X*Y>Z:
+            print('NO')
