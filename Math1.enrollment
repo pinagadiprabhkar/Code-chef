@@ -1,0 +1,7 @@
+for t in range(int(input())):
+    X,Y=list(map(int,input().split()))
+    if X>=Y:
+        print(0)
+    else:
+        if X<Y:
+            print(Y-X)
