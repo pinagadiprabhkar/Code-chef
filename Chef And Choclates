@@ -1,0 +1,4 @@
+for t in range(int(input())):
+    X,Y,Z=list(map(int,input().split()))
+    K = X*5+Y*10
+    print(K//Z)
